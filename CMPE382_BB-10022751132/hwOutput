@@ -1,0 +1,16 @@
+┌──(kali㉿berke)-[~/CMPE382_BB-10022751132]
+└─$ gcc hw1.c -o hw -lm
+hw1.c: In function ‘main’:
+hw1.c:45:22: warning: overflow in conversion from ‘long int’ to ‘int’ changes value from ‘10022751132’ to ‘1432816540’ [-Woverflow]
+   45 |     int student_id = 10022751132;
+      |                      ^~~~~~~~~~~
+                                                                                                                                                            
+┌──(kali㉿berke)-[~/CMPE382_BB-10022751132]
+└─$ ./hw
+Enter N: 232
+I am Child process P2: The winner is child process P2
+I am Child process P1: The winner is child process P2
+
+The number of positive integers in each file: 232
+The number of prime numbers in File1: 47
+The number of prime numbers in File2: 49
